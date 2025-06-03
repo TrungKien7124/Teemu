@@ -1,0 +1,24 @@
+.button {
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.textButton {
+  background-color: transparent;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.textButton:hover {
+  text-decoration: underline;
+  transition: 0.3s;
+}
