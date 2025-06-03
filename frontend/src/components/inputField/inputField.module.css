@@ -1,0 +1,45 @@
+.inputField {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+.inputField:focus {
+  border-color: black;
+  box-shadow: 0 0 3px black;
+}
+
+.inputField:focus::placeholder {
+  color: transparent;
+}
+
+.inputField::placeholder {
+  color: #aaa;
+}
+
+.errorInputField {
+  padding: 10px 15px;
+  border: 1px solid red;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+.errorInputField:focus {
+  border-color: black;
+  box-shadow: 0 0 3px black;
+}
+
+.errorInputField:focus::placeholder {
+  color: transparent;
+}
+
+.errorInputField::placeholder {
+  color: red;
+}
